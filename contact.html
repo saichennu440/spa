@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Spa Name - Contact</title>
+  <link rel="stylesheet" href="spastyle.css">
+</head>
+<style>
+  h6
+  {
+    text-align:center;
+  }
+  nav{
+          background-color: aliceblue;
+        }
+  .appointment {
+  background-color: antiquewhite;
+  padding: 20px;
+}
+
+.appointment h2 {
+  margin-top: 0;
+}
+
+form {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  grid-gap: 10px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="submit"] {
+  grid-column: span 2;
+  padding: 10px;
+}
+</style>
+<body>
+  <header>
+    <nav>
+      <div class="container">
+        <h6><img src="https://www.logolynx.com/images/logolynx/0b/0b57e230a4499688a04f35dd49c69620.jpeg" alt="Your Spa Name Logo" class="logo"></h6><br>
+        <ul class="nav-menu">
+          <li><a href="file:///C:/Users/jayas/OneDrive/Desktop/java/spa.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+<li><a href="file:///C:/Users/jayas/OneDrive/Desktop/java/spa_services.html">Packages</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="contact">
+      <div class="container">
+        <h2>Contact Us</h2>
+        <div class="contact-info">
+          <div>
+            <h3>Address</h3>
+            <p>123 Spa Street<br>City, State ZIP</p>
+          </div>
+          <div>
+            <h3>Phone</h3>
+            <p>(123) 456-7890</p>
+          </div>
+          <div>
+            <h3>Email</h3>
+            <p>info@yourspaname.com</p>
+          </div>
+        </div>
+        <p>Have a question or Know any thing else? Fill out the form below and we'll get back to you as soon as possible.</p>
+        <form2 action="#" method="POST">
+          <input type="text" name="name" placeholder="Your Name" required>
+          <input type="email" name="email" placeholder="Your Email" required>
+          <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+          <button type="submit">Submit</button>
+        </form2>
+      </div>
+    </section>
+  </main>
+  <section class="appointment">
+    <h2>Book an Appointment</h2>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      <label for="service">Service:</label>
+      <select id="service" name="service" required>
+        <option value="">Select a service</option>
+        <option value="massage">Massage</option>
+        <option value="facial">Facial</option>
+        <option value="manicure">Manicure</option>
+        <option value="pedicure">Pedicure</option>
+      </select>
+      <label for="date">Date:</label>
+      <input type="date" id="date" name="date" required>
+      <input type="submit" value="Book Now">
+    </form>
+  </section>
+  <footer>
+    <div class="container">
+    <marquee>  <p>&copy; 2023 Relax & Rejuvenate Spa. All rights reserved.</p></marquee>
+    </div>
+  </footer>
+</body>
+</html>

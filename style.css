@@ -1,0 +1,226 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+    
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+    
+}
+
+/* Header styles */
+header {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    
+}
+
+h1 {
+    font-size: 24px;
+    color: #333;
+}
+.image3 img{
+    width: 200px;
+  }
+  .btn {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #555;
+  }
+  
+nav ul {
+    list-style-type: none;
+    margin-top: 10px;
+    text-align:center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #333;
+    text-decoration: none;
+}
+
+/* Home section styles */
+section#home {
+    background-position-x:center;
+    background-position-y:center;
+    background-image: url('https://cdn.wallpapersafari.com/2/30/osAkFl.jpg');
+    background-size: cover;
+    height: 500px;
+    position: relative;
+}
+
+section#home .overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+section#home h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+/* Services section styles */
+section#services {
+    background-color: #fff;
+    padding: 40px;
+}
+
+section#services h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.service {
+    margin-bottom: 20px;
+}
+
+.service h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+/* Packages section styles */
+section#packages {
+    background-color: #f3f3f3;
+    padding: 40px;
+}
+
+section#packages h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.package {
+    margin-bottom: 20px;
+}
+
+.package h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+/* About section styles */
+section#about {
+    background-color: #fff;
+    padding: 40px;
+}
+
+section#about h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Contact section styles */
+section#contact {
+    background-color: #f3f3f3;
+    padding: 40px;
+}
+
+section#contact h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.contact-info {
+    margin-top: 20px;
+}
+
+.contact-info p {
+    margin-bottom: 10px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+.service img {
+    width: 400px;
+    height: auto;
+    margin-bottom: 10px;
+ background-size: cover;
+    height: 500px;
+    position: relative;
+    margin:0px 20px 40px 20px;
+}
+
+
+.container4 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .spa-item {
+    display: flex;
+    align-items: center;
+  }
+  
+  img {
+    width: 500px;
+    height: auto;
+  }
+  
+  .description2{
+    margin-left: 20px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 16px;
+    margin-left: 20px;
+  }
+  .image-slider {
+    overflow: hidden;
+    white-space: nowrap;
+    padding-top: 20px;
+  }
+  
+  .image-slider img {
+    width: 500px;
+    display: inline-block;
+    margin-right: 20px;
+  }
+  .image2 img{
+    width: 100px;
+  }
+  
+  
+  
+
+
+
